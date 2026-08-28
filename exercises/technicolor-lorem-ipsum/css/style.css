@@ -10,6 +10,7 @@ body {
 #p1 {
     color: darkblue;
     background-color: violet;
+    border: 5px dashed black;
 }
 
 #s1 {
@@ -35,9 +36,31 @@ body {
 #p3 {
     color: darkgreen;
     background-color: #ffb6e5;
+    box-shadow: 10px 10px black;
 }
 
 #s4 {
     background-color: cyan;
     color: darkred;
 }
+
+#p4 {
+    background: linear-gradient(red, orange);
+    border: 5px dotted black;
+}
+
+#p5 {
+    background: linear-gradient(yellow, green);
+    border: 5px solid black;
+}
+
+#p6 {
+    background: linear-gradient(blue, purple);
+    border: 5px dashed black;
+}
+
+#p7 {
+    background: linear-gradient(violet, #f59ebc);
+    border: 5px solid black;
+}
+
