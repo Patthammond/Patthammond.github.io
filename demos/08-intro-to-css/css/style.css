@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color:hotpink;
+}
+
+#p2 {
+    color:white;
+    background-color:#dd6904;
+}
+#s1 {
+    background-color:black;
+    color:yellow;
+}
