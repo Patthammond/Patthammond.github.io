@@ -9,6 +9,11 @@ body {
 
 #trial1 {
     color: green;
+    width: 500px;
+}
+
+#trial2 {
+    width: 500px;
 }
 
 #s2 {
@@ -17,6 +22,10 @@ body {
 
 #st2 {
     color: #f711f7;
+}
+
+#trial3 {
+    width: 500px;
 }
 
 #sr3 {
@@ -33,10 +42,19 @@ body {
 
 #pt4 {
     background-color: skyblue;
+    width: 500px;
+}
+
+#trial5 {
+    width: 500px;
 }
 
 #st5 {
     background-color: yellow;
+}
+
+#trial6 {
+    width: 500px;
 }
 
 #s6 {
@@ -45,6 +63,10 @@ body {
 
 #st6 {
     font-weight: bold;
+}
+
+#trial7 {
+    width: 500px;
 }
 
 #st7 {
@@ -59,6 +81,10 @@ body {
     font-style: italic;
 }
 
+#trial8 {
+    width: 500px;
+}
+
 #s8 {
     text-decoration: underline;
 }
@@ -67,12 +93,17 @@ body {
     text-decoration: underline;
 }
 
+#trial9 {
+    width: 500px;
+}
+
 #s9 {
     font-size: 35px;
 }
 
 #pt10 {
     text-align: center;
+    width: 500px;
 }
 
 #st10 {
