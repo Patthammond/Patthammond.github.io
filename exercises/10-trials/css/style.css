@@ -51,6 +51,14 @@ body {
     font-weight: 900;
 }
 
+#s7 {
+    font-style: italic;
+}
+
+#si7 {
+    font-style: italic;
+}
+
 #s8 {
     text-decoration: underline;
 }
