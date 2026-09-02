@@ -12,6 +12,7 @@ body {
     margin: 24px;
     padding: 24px;
     box-shadow: 6px 6px 12px #989898;
+    background-color: #e2e2e2;
 }
 
 .color {
@@ -58,4 +59,16 @@ body {
 #brown {
     background-color: #5b5750;
     color: white;
+}
+
+#meadow {
+    font-family: cursive;
+}
+
+#bubble-pop {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#stone-ocean {
+    font-family: 'Times New Roman', Times, serif;
 }
