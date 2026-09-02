@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: #26081c;
 }
 
 .color-palette {
@@ -73,6 +74,3 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
-    background: #26081c;
-}
