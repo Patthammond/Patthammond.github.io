@@ -13,21 +13,23 @@ body {
 }
 
 .featured-album {
-   border-radius: 20px;
+    border-radius: 20px;
     width: 150px;
     margin: 24px;
+    vertical-align: top;
 }
 
 .featured {
     background-color: #fb4f80;
     color: white;
     border-radius: 30px;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .details {
     display: inline-block;
     margin: 24px;
+    vertical-align: top;
 }
 
 .albums {
