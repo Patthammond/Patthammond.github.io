@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#music {
+    display: inline-block;
+    margin: 40px;
+}
+
+.featured-album {
+   border-radius: 20px;
+    width: 150px;
+    margin: 24px;
+}
+
+.featured {
+    background-color: #fb4f80;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.details {
+    display: inline-block;
+    margin: 24px;
+}
+
+.albums {
+    background-color: #b9456f;
+    padding: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+img {
+    border-radius: 20px;
+}
