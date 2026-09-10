@@ -6,7 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-image: url("../images/brick3\ .jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 .column {
