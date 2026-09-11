@@ -1,6 +1,4 @@
- {
-    @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,23 +10,33 @@ body {
 }
 
 .chocolate {
-    background-color: red;
+    background-color: #5c433b;
     padding: 48px 0px;
+    color: rgb(241, 213, 176);
 }
 
 .strawberry {
-    background-color: #f17da8;
+    background-color: #f669a8;
     padding: 48px 0px;
+    color: #540707;
 }
 
 .matcha {
-    background-color: #5e834e;
+    background-color: #3c6204;
     padding: 48px 0px;
+    color: #d2f6ac;
 }
 
-h3, h2 {
+h2 {
+    font-size: 50px;
     font-family: "Fira Sans", sans-serif;
-    font-weight: 700px;
+    text-align: center;
+    padding: 12px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
     text-align: center;
     padding: 12px;
 }
@@ -36,10 +44,6 @@ h3, h2 {
 .column {
     margin: 24px auto;
     max-width: 500px;
-    text-align: center;
-}
-
-p {
     text-align: center;
 }
 
@@ -54,4 +58,8 @@ p {
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+}
+
+p {
+    font-size: 18px;
 }
