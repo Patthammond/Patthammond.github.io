@@ -38,6 +38,7 @@ h2 {
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     padding: 12px;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -45,6 +46,7 @@ h3 {
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     padding: 12px;
+    margin-bottom: 0px;
 }
 
 .column {
