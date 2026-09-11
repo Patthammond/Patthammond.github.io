@@ -12,7 +12,7 @@ body {
 .chocolate {
     background-color: #5c433b;
     padding: 48px 0px;
-    color: rgb(241, 213, 176);
+    color: #f1d5b0;
 }
 
 .strawberry {
@@ -25,6 +25,12 @@ body {
     background-color: #3c6204;
     padding: 48px 0px;
     color: #d2f6ac;
+}
+
+.peanut-butter {
+    background-color: #14c2ce;
+    padding: 48px 0px;
+    color: #643904;
 }
 
 h2 {
@@ -47,10 +53,49 @@ h3 {
     text-align: center;
 }
 
-.button {
+.button1 {
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: #5c433b;
+    background-color: #f1d5b0;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2 {
+    text-decoration: none;
+    color: #f669a8;
+    background-color: #540707;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button3 {
+    text-decoration: none;
+    color: #3c6204;
+    background-color: #d2f6ac;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button4 {
+    text-decoration: none;
+    color: #14c2ce;
+    background-color: #643904;
     display: inline-block;
     padding: 12px;
     border-radius: 18px;
