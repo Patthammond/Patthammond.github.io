@@ -17,6 +17,7 @@ body {
     background-image: url(../images/field\ .jpg);
     background-size: cover;
     color: white;
+    border: 15px solid black;
 }
 
 .content {
@@ -51,26 +52,28 @@ p {
 }
 
 .primary {
-    background-color: #471058;
+    background-color: black;
     color: white;
     padding: 12px;
     border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
     margin-right: 12px;
+    border: 3px solid #60329d;
 }
 
 .secondary {
     background-color: black;
-    color: #e7d805;
+    color: white;
     padding: 12px;
     border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
     margin-right: 12px;
+    border:3px solid #e7d805 ;
 }
 
-h1 h3 {
+h3 {
     margin-bottom: 10px;
 }
 
@@ -82,4 +85,5 @@ h1{
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 10px;
 }
