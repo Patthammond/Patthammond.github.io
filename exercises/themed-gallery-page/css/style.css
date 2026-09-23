@@ -5,11 +5,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #192b19;
+}
+
+#single-column {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: #35261c ;
 }
 
 #navbar {
-    background-color: darkgreen;
-     display: flex;
+    background-color: #35261c;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -19,11 +26,12 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    margin-left: 15px;
 }
 
 #hero {
     background-image: url(../images/mush\ 2\ .jpg);
-     height: 100vh;
+    height: 500px;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -31,6 +39,18 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h2 {
+    margin: 15px;
 }
 
 .horizontal-masonry-gallery {
