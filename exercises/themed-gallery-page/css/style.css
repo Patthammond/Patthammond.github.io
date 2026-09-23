@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: darkgreen;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#hero {
+    background-image: url(../images/mush\ 2\ .jpg);
+     height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
