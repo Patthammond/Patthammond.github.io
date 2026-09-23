@@ -63,4 +63,5 @@ h2 {
     height: 250px;
     flex: 1;
     object-fit: cover;
+    margin-top: 24px;
 }
