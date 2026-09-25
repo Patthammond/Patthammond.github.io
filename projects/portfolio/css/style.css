@@ -133,16 +133,7 @@ h3 {
     border-radius: 15px;
 }
 
-@media screen and (max-width: 640px) {
-
-    #single-column h1 {
-        font-size: 44px;
-    }
-
-    .horizontal-masonry-gallery {
-        grid-template-columns: 1fr;
-    }
-
+@medi screen and (max-width: 950px) {
     .card-container {
         flex-direction: column;
     }
@@ -158,6 +149,17 @@ h3 {
      #navbar {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #single-column h1 {
+        font-size: 44px;
+    }
+
+    .horizontal-masonry-gallery {
+        grid-template-columns: 1fr;
     }
 }
 
