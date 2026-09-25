@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/urban-19po9.jpg);
+    background-image: url(../images/background\ .jpg);
     background-size: cover;
 }
 
@@ -44,6 +44,10 @@ body {
     justify-content: center;
 }
 
+#hero h1 {
+    text-shadow: 60px;
+}
+
 #hero a {
     font-size: 20px;
     color: white;
@@ -76,6 +80,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    padding: 36px;
 }
 
 .horizontal-masonry-gallery img {
@@ -92,7 +97,9 @@ h3 {
     font-weight: 400;
     font-style: normal;
     margin-left: 15px;
-    font-size: 40px;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .card-container {
@@ -100,7 +107,7 @@ h3 {
 }
 
 .card {
-    border: 5px solid #29374e;
+    border: 10px solid #29374e;
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -110,10 +117,11 @@ h3 {
     font-family: "Sedgwick Ave Display", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .card a {
+    display: block;
     color: white;
     text-decoration: none;
     font-family: sans-serif;
