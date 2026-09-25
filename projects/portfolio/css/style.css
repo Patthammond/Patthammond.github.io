@@ -143,10 +143,12 @@ h3 {
         grid-template-columns: 1fr;
     }
 
+    .card-container {
+        flex-direction: column;
+    }
+
     .card {
         font-size: 25px;
-        flex-direction: column;
-        align-items: center;
     }
 
     .card a {
