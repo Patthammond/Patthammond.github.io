@@ -133,7 +133,7 @@ h3 {
     border-radius: 15px;
 }
 
-@medi screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
     .card-container {
         flex-direction: column;
     }
